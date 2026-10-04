@@ -44,7 +44,7 @@ export const enTranslations: TranslationSchema = {
         loveYouSoMuch: "We love you so much! 💖",
     },
     cake: {
-        selectTitle: "Choose Your Birthday Cake 🎂",
+        selectTitle: "Choose Your Birthday Cake",
         selectSubtitle: "Select a flavor to start the celebration",
         startCutting: "Start Cutting",
         makeAWishAndBlow: "✨ MAKE A WISH & BLOW ✨",

@@ -70,7 +70,7 @@ const FourCornerMerge = ({ onDone }: {
             ? `আপনাকে অনেক ভালোবাসি ${name || 'প্রিয়'}`
             : isHindi
                 ? `आपसे बहुत प्यार करते हैं ${name || 'प्रिय'}`
-                : `Love You Dear ${name || 'One'}`;
+                : `Bless You Dear ${name || 'One'}`;
     useEffect(() => {
         const t1 = setTimeout(() => setPhase("merging"), 100);
         const t2 = setTimeout(() => setPhase("merged"), 1800);

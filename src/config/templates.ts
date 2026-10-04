@@ -32,7 +32,7 @@ Happy Birthday, beautiful. May this year be as breathtaking as you are.
 
 Thinking of Only You,
 [Your Name]`,
-        friendly: (name: string) => `To My Unbiological Sister & Best Friend, ${name},
+        friendly: (name: string) => `To My Absolute Best Friend, ${name},
 
 Happy Birthday to the one who knows all my secrets and still hasn't run away! 😂 You are the laughter in my life when things get tough and the logic I need when I'm being a mess. People like you don't just happen; you're a rare gem that I'm so lucky to have found.
 
@@ -260,7 +260,7 @@ export const SPECIAL_QUOTES = {
             "If true loyalty had a name, it would be a legendary friend like you. 🔥"
         ],
         friendly: [
-            "To my soul-sister—thank you for being the person who knows my silence as well as my laughter.",
+            "To my best friend—thank you for being the person who knows my silence as well as my laughter.",
             "You aren't just a friend; you're the family I got to choose. Here's to a lifetime of adventures.",
             "Having a friend as loyal and wonderful as you is the greatest blessing in my life. ✨"
         ]

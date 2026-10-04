@@ -575,9 +575,10 @@ export const CakeCutting = () => {
                     <motion.h2 
                         initial={{ opacity: 0, y: 20 }} 
                         whileInView={{ opacity: 1, y: 0 }} 
-                        className="font-display text-4xl sm:text-6xl md:text-8xl font-black mb-6 bg-gradient-to-b from-white to-white/20 bg-clip-text text-transparent"
+                        className="font-display text-4xl sm:text-6xl md:text-8xl font-black mb-6 bg-gradient-to-b from-white to-white/20 bg-clip-text text-transparent flex flex-col items-center gap-4"
                     >
                         {t('cake.selectTitle')}
+                        <img src="/assets/realistic_cake.jpg" alt="Realistic Cake" className="w-24 h-24 sm:w-32 sm:h-32 object-contain mix-blend-screen rounded-2xl" />
                     </motion.h2>
                     <p className="text-white/40 text-lg sm:text-xl mb-12 sm:mb-20 max-w-2xl mx-auto font-light tracking-widest uppercase">
                         {t('cake.selectSubtitle')}

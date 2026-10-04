@@ -252,8 +252,11 @@ export const BalloonPopGame = () => {
                                         transition={{ duration: 0.6, type: "spring", stiffness: 260, damping: 20 }}
                                         className="flex flex-col items-center justify-center text-center p-4 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl shadow-xl w-full h-40"
                                     >
-                                        <span className="font-display italic text-3xl sm:text-4xl md:text-5xl font-black text-gradient-romantic text-glow-rose drop-shadow-xl break-words leading-tight">
-                                            {balloon.word}
+                                        <span className="font-display italic text-3xl sm:text-4xl md:text-5xl font-black text-gradient-romantic text-glow-rose drop-shadow-xl break-words leading-tight flex flex-col items-center gap-2">
+                                            {balloon.word.replace('🚀', '')}
+                                            {balloon.word.includes('🚀') && (
+                                                <img src="/assets/realistic_rocket.jpg" alt="Rocket" className="w-16 h-16 object-contain mix-blend-screen" />
+                                            )}
                                         </span>
                                     </motion.div>
                                 )}

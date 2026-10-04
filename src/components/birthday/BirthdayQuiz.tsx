@@ -203,10 +203,10 @@ export const BirthdayQuiz = () => {
             });
         }
         base.push({
-            q: `If ${displayName} had a superpower, what would their hero name be?`,
-            options: ["Captain Sleep", "The Procrastinator", "Super Legend Birthday Star 🦸‍♂️", "Iron Coffee"],
-            correct: 2,
-            reason: "Today, they are the hero this world needs!"
+            q: `Which name give you by your bestfriend ?`,
+            options: ["Viu", "Vishu", "Vaishu", "Golu"],
+            correct: 0,
+            reason: "Because best friends always have the cutest nicknames!"
         });
         return base;
     }, [config, isHindi, isBengali, isFrench]);

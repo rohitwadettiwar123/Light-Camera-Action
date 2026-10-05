@@ -1,30 +1,42 @@
-# 🎂 Light Camera Action - Birthday Special
+# 🎂 Light Camera Action - 3D Birthday Experience
 
 A deeply personalized, interactive 3D birthday celebration web application created as a special gift for a best friend. 
 
-This project transforms a traditional birthday greeting into an immersive web experience using modern web technologies, 3D graphics, and interactive elements.
+This project pushes the boundaries of a traditional birthday greeting by transforming it into an immersive, hardware-accelerated 3D WebGL experience using React Three Fiber.
 
-## ✨ Features
+## 🚀 The 3D Experience
+
+This application features multiple intersecting 3D scenes rendered in real-time:
+
+*   **🌌 3D Photo Constellation Galaxy**: 
+    *   **Interactive Camera**: A fully navigable 3D space where photos float like stars. 
+    *   **Gyroscope Parallax**: On mobile, tilting the device physically shifts the 3D camera perspective.
+    *   **Dynamic Depth**: Photos scale and blur based on their Z-axis distance from the camera, creating a hyper-realistic depth of field.
+*   **✨ Physics-Based Particle Morphing**: 
+    *   **Spring Physics**: Thousands of individual glowing particles driven by `@react-spring/three`.
+    *   **Geometry Morphing**: Particles seamlessly transition from spelling out the birthday star's name, to forming a glowing 3D heart, to a birthday cake silhouette.
+*   **🎆 GLSL Aurora Shader**: 
+    *   **Custom Fragment Shaders**: A stunning, real-time math-generated aurora borealis background that constantly shifts and reacts to the scene.
+*   **✉️ Realistic 3D Envelope**: 
+    *   **Material Rendering**: A 3D debossed envelope with realistic shadows, glowing wax seals, and physical lighting that responds to user interaction.
+*   **🎂 Interactive 3D Cake**: 
+    *   **Lighting Effects**: A beautifully rendered birthday cake with dynamic point lights attached to the candles that cast real-time shadows across the icing.
+
+## ✨ Additional Features
 
 *   **🔒 Secure Passcode Entry**: A beautiful lock screen protecting the surprise.
-*   **🌌 3D Photo Constellation**: An interactive galaxy of floating memories. Drag and tilt the device to explore the photos in 3D space using gyroscope controls.
-*   **✨ Particle Morphing Intro**: A cinematic opening where glowing particles morph to reveal the birthday message.
-*   **✉️ 3D Interactive Letter**: A realistic, debossed envelope that opens to reveal a personalized letter written in a live typewriter effect.
-*   **🎂 Interactive Cake**: A highly realistic 3D birthday cake experience where you can blow out the candles and cut the cake.
-*   **🎈 Balloon Pop Game & Trivia**: A fun interactive quiz testing how well you know the birthday star, complete with haptic feedback and confetti.
-*   **📱 Fully Responsive**: Optimized for both high-end desktops and mobile devices with adaptive quality scaling to ensure smooth performance everywhere.
+*   **🎈 Balloon Pop Game & Trivia**: A fun interactive quiz testing how well you know the birthday star, complete with haptic feedback.
+*   **📱 Adaptive 3D Scaling**: A custom quality hook monitors hardware concurrency and FPS to automatically downgrade 3D fidelity on older phones, ensuring a smooth 60fps experience everywhere.
 
 ## 🛠️ Built With
 
-*   **React**: UI Framework
-*   **Vite**: Next-generation frontend tooling
-*   **Three.js & React Three Fiber**: For stunning 3D rendering and particle effects
-*   **Tailwind CSS**: For beautiful, responsive styling
-*   **Framer Motion**: For fluid page transitions and UI animations
+*   **React & Vite**: High-performance UI Framework and tooling.
+*   **Three.js & React Three Fiber**: The core engine driving all WebGL 3D rendering.
+*   **Tailwind CSS & Framer Motion**: For beautiful styling and fluid 2D DOM transitions.
 
 ## 🚀 Running Locally
 
-To run this project on your local machine:
+To run this 3D project on your local machine:
 
 1.  **Install dependencies:**
     ```bash

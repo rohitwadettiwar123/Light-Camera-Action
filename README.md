@@ -4,7 +4,7 @@ A deeply personalized, interactive 3D birthday celebration web application creat
 
 This project pushes the boundaries of a traditional birthday greeting by transforming it into an immersive, hardware-accelerated 3D WebGL experience using React Three Fiber.
 
-## 🚀 The 3D Experience
+## 🚀 The 3D Experience 
 
 This application features multiple intersecting 3D scenes rendered in real-time:
 

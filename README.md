@@ -1,4 +1,4 @@
-# 🎂 Light Camera Action - 3D Birthday Experience
+# 🎂 Light Camera Action - 3D Birthday Experience 
 
 A deeply personalized, interactive 3D birthday celebration web application created as a special gift for a best friend. 
 

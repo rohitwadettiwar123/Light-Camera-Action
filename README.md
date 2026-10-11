@@ -34,7 +34,7 @@ This application features multiple intersecting 3D scenes rendered in real-time:
 *   **Three.js & React Three Fiber**: The core engine driving all WebGL 3D rendering.
 *   **Tailwind CSS & Framer Motion**: For beautiful styling and fluid 2D DOM transitions.
 
-## 🚀 Running Locally
+## 🚀 Running Locally 
 
 To run this 3D project on your local machine:
 
